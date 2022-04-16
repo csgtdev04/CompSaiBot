@@ -1,0 +1,26 @@
+plugins {
+    id("java")
+}
+
+version '1.0'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/net.dv8tion/JDA
+
+    implementation 'net.dv8tion:JDA:4.2.0_247'
+
+    // https://mvnrepository.com/artifact/com.jagrosh/jda-utilities-commons
+//    implementation 'com.jagrosh:jda-utilities-commons:2.0'
+    implementation 'com.jagrosh:jda-utilities-command:3.0.1'
+    // https://mvnrepository.com/artifact/net.coobird/thumbnailator
+    implementation 'net.coobird:thumbnailator:0.4.1'
+
+
+
+}
+
+compileJava.options.encoding = "UTF-8"
